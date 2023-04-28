@@ -1,0 +1,131 @@
+.contenedor{
+    display:grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+.w3-light-grey{
+    margin:25px;
+}
+.columna1{
+    background-color: darkblue;
+    color:whitesmoke;
+    text-align: center;
+}
+h1.col1{
+    font-weight: bold;
+}
+h2.col1{
+    font-weight: bold;
+}
+.columna2{
+    padding-left: 30px;
+    margin-right: 40px;
+}
+h2.col2 {
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: darkblue;
+    color:whitesmoke;
+    font-size: 30px;
+}
+.box1-foto{
+    grid-column: 1;
+    grid-row: 1;
+}
+.box2-Informacion{
+    grid-column: 1;
+    grid-row: 2;
+    padding-top: 20px;
+}
+.box3-Habilidades{
+    grid-column: 1;
+    grid-row: 3;
+
+
+}
+.box4-software{
+    grid-column: 1;
+    grid-row: 4;
+}
+.box5-hobbies{
+    grid-column: 1;
+    grid-row: 5;
+    margin-top: -100px;
+}
+.box6-Nombre{
+    grid-column: 2;
+    grid-row: 1;
+    text-align: center;
+    
+}
+h2.nombre1{
+    font-size: 50px;
+    font-weight: bold;
+    color: darkblue;
+}
+h1.apellido{
+    font-size: 60px;
+    font-weight: bold;
+}
+.box7-introduccion{
+    grid-column: 2;
+    grid-row: 2;
+    position: relative;
+    top: -180px;
+    font-size: 13px;
+}
+h4.intro{
+    color:rgb(22, 22, 188);
+    font-weight: bold;
+
+}
+.box8-personal{
+    grid-column: 2;
+    grid-row: 3;
+    position: relative;
+    top: -390px;
+}
+.box9-educacion{
+    grid-column: 2;
+    grid-row: 4;
+    margin-top: -340px;
+}
+.box10-Experiencia{
+    grid-column: 2;
+    grid-row: 5;
+    margin-top: -300px;
+}
+
+.fotomia{
+    width: 100%;
+    
+}
+
+ul{
+    list-style: none;
+}
+ul li{
+    margin-bottom: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+h4.icon1{
+    display: inline-block;
+    text-align: right;
+    padding-left: 10px;
+}
+
+i {
+    font-size: 30px;
+}
+
+.icon2{
+    margin: 10px;
+    font-size: 30px;
+}
